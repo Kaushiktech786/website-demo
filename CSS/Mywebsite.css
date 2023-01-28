@@ -17,37 +17,29 @@
 .section_Link {
     background-color: #a6dcef;
 }
-.services_img1{
-    height: 100%;
-    width: 100%;
-    background-image: url('../Pic/c1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.services_img2{
-    height: 100%;
-    width: 100%;
-    background-image: url('../Pic/c2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.services_img3{
-    height: 100%;
-    width: 100%;
-    background-image: url('../Pic/c3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 footer{
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 footer a{
     text-decoration: none;
-    color:black;
+    color: black;
+}
+
+.Services .row>* {
+    padding-right: 0;
+}
+
+.Services .img-fluid {
+    height: 225px;
+}
+
+@media (max-width: 768px) {
+    .Services .img-fluid {
+       width: 100%;
+       height: auto;
+       background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    } 
 }
